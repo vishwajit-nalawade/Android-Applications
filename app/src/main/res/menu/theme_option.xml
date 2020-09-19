@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Chat Theme"
+        android:id="@+id/chat_theme_option"
+        app:showAsAction="never"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/chat_dark_theme"
+                android:title="Dark Chat Theme" />
+            <item
+                android:id="@+id/chat_light_theme"
+                android:title="Light Chat Theme" />
+        </menu>
+
+    </item>
+
+</menu>
